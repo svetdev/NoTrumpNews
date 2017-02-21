@@ -1,0 +1,1369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072A44B942690E996CD4AACFABF24405 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BE28DD66C44E6993A60FFC6E87840CB6 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C4C92C53048A74505676CFAAC351F7 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B97941CE2CC511EEFA685D5B959C64 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E58CFA669D04B37054A2A1D0CE5AB /* Timeline.swift */; };
+		114CF663205CE5747DD7032134F6D866 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E5092D5A25A91130BB6F533CF718E81E /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A087519953EB8EBA95E09C37258E742 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A85B70692430BDEC71E36439A857AC4 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AEBB61BB5BD852153A20F64D4971196 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = F05451F2FB298B299CC003B6F9BA70C8 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9B7DC61FEB870DF839DA9B127594A1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA345F357493E8BC2EDA3F3AACA67A6 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AC43BE8C0AF0823F024C2F804B910447 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		226352E1B37012C41305EEB880FA9BE6 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC4D6346555718844DA29F6CF9A806 /* NSData+ImageContentType.m */; };
+		23D2E2BB79CEBDA4570A026CF05A0187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8239CFF972A975D3F17BBF071AE44EA /* TaskDelegate.swift */; };
+		37EACDCE73C34A0AC3D536B779D2370C /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = BA69F5D7EF2338DC9ECDB1BB4868A17B /* UIImage+GIF.m */; };
+		3F560D9E27F88194E172775D4E304C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */; };
+		4556DD88BC005430644855B038EF7E36 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B50C6D4146CCE7269FE05043F4ABDC /* SwiftyJSON.swift */; };
+		47DE4775ACD9EABA0A530A354D84CE78 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B32A92854DD372A68E988C452FF357 /* UIImageView+HighlightedWebCache.m */; };
+		4B72BEF427019F09CBFD02AEE41CE179 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B62723BC52974F53E0F193D0C6E33DA6 /* SDWebImageManager.m */; };
+		4DD584CB00A2AE8C43BA8BC810E8A041 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BED8945A3E463093BF11B80FF9344DF /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E6624586A2CBD2F31600A80E369CA77 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B3261086CBD93B10404C5A5AA89255 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F27940C1283FA4C879A896FE67B012F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6822A76A9DA77D078E98C09C7A94779A /* SDImageCache.m */; };
+		4FF03263F3487B28975A037D7FA4D6B0 /* Pods-NoTrumpNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F686A8E79888336E8F8C4998E6189DAC /* Pods-NoTrumpNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E417220B597968402DC982F2A927446 /* Request.swift */; };
+		54509F892F138257E38135F533A8831C /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 777477F265C071FE89D8D13717DB8A4C /* SDWebImageDownloaderOperation.m */; };
+		5B5F0B489238341907C7997893C4142E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */; };
+		5D7334023C83E1CFA8FE9F68F16109BD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C97050C5BB315CF8D59A03899BAFA13 /* ImageIO.framework */; };
+		5DBEDCF1E46DE937CAA5DA2946673481 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C559EAD6AE253C6413BA08D79D131AF3 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E56205C029F3A9D1324EA63F1288D27 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = E29F3065EA31A89828940E0F494970E3 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0367ED98629A57BE08ADD0C0B1E6DB /* DispatchQueue+Alamofire.swift */; };
+		61E3A614AB5B62741FD3CC47C10B37DA /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EAABAB1FF85DAA51FB66DFF2E9913 /* SDWebImageDecoder.m */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876DB6994191990AB52F5C9F326785C9 /* ServerTrustPolicy.swift */; };
+		686043685F307E7140BE34CD057D33EB /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C7986E60CA7FEB494760438E057D30 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C9C3DC644B415DF55E755AE9DB018C8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BC3642803DB90B54D8984D81BABAC /* UIImageView+WebCache.m */; };
+		6CAEBAF17D82DB02FC4C0F0713C3E216 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2660E26FA40BCA4E0C818F0B1A0A4 /* UIImage+MultiFormat.m */; };
+		6DC53DD4717A013488761686018464AD /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A23ECD9441A41817E99B6A87CD81CD1 /* SDWebImage-dummy.m */; };
+		7AA5F3D14BE08F92C9002E516F4985ED /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F15B0DE5A4BBCA7C4CA0A1776FCEF /* SwiftyJSON-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9F67EF126B58F122DEE38676263036 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10928FC27C4148C934AA48D5F922298 /* Result.swift */; };
+		8628CA541C137295D3C8467C78369924 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9961EA4EFCEF414784EA81084CCFEB09 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87270CD5F1C239BD917F3C8C5005CD93 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A99B2C1DDE7D400C1C8F7FE436D5DE5 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C4657A0205B488A9DDA53E6874B2C0 /* Pods-NoTrumpNewsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D873BEDF41660BA21306352F6D9808D /* Pods-NoTrumpNewsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99326325A6771939C9F0E0D17E88CBDD /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EC17719E2ED95EFBFAB209B1B3AAEE /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFBF437C82EB6EEE27F1B02AA296B49 /* AFError.swift */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18413CE1B2A4E6980C79BF73C92653A2 /* NetworkReachabilityManager.swift */; };
+		A8C954404DF753B09B4C56BE1DF203B3 /* Pods-NoTrumpNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125E72BE2FB1859FD02651ADE8A2F30 /* Pods-NoTrumpNews-dummy.m */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BACD5537A896134ECBC53485951719 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3E6207DE38E6E83443D1E0E8A2AD3 /* SessionManager.swift */; };
+		AFC3A803A32FC6DCDF71145AFCE2F3E4 /* Pods-NoTrumpNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF41F5168BE9901574388836EECB99D2 /* Pods-NoTrumpNewsTests-dummy.m */; };
+		B49889ACAFBAA20962FDEE40A5F5D28A /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9096C703C075D7EA41F73460F83505EB /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F3DE28B1B4F8764F09B272D51CC829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE373CFA80F1ED368EB4EC3E16332D5B /* MultipartFormData.swift */; };
+		B8CD7C672331F02656EF8511BBB90D51 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E70405A67FC6C9D8483637CBFB184C /* SDWebImagePrefetcher.m */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AAE3687341FC9E1ED22C2A64331A77 /* Validation.swift */; };
+		BD2F69BEE947572E4AC5E60EC9E6349F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5A88FAD2F822671327A6A1CEB57EA /* ParameterEncoding.swift */; };
+		C081AAB80B42BDD612A8D5CBE33D3BB1 /* Pods-NoTrumpNewsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88647A25CDDCAB28C19DD86048DE062 /* Pods-NoTrumpNewsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C25FCC79613E0B79F53F342307816850 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C86D720BC91E45322D07F433C5856D /* UIView+WebCacheOperation.m */; };
+		C27AC320FDF40312227C1550D4B8F3C4 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E50A83DAD0D8A46AA1CA1BB8D60E6B0 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBED440CD96B1D1E536570DAC4E956 /* Response.swift */; };
+		CD54F71075B4ED8058B3DE6742A41F13 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E30AE7ED33AB2FD9B35FC21FC48AFB /* SDWebImageCompat.m */; };
+		D87F50BECB2D5EA9424CE54E1A0FB631 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A7ADCC76AA71A4D9B861180836EEA /* SDWebImageDownloader.m */; };
+		E1C48DC0BD4B67EFF1CDF564C6365AB1 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E2BEA7C900A8261DB7D5EF48FBD054 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE79026E366A62A3AB483044B851F580 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5999222E0A75DAB80764D3343E8066 /* UIButton+WebCache.m */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272EC1DE91A98F99C9D849E5200DEABE /* Notifications.swift */; };
+		F19A28C6B92B62181F8D14D238DA519F /* Pods-NoTrumpNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB101CAAC68C85604A751CDD64FC5C1 /* Pods-NoTrumpNewsUITests-dummy.m */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6E866685D2704DC9D731311B7117C /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996883E618CC69E1AC12362C2C49E5A /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A06D0ED159A33C58D5F9C1546F00D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		993609B130646E9C518C38949868DCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9673B8F1A69458C316CB866C91723024;
+			remoteInfo = SwiftyJSON;
+		};
+		E11DDF2CDDAD601224E14AE59455D785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565BD135AC8F11A57AFEF82579169113;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0125E72BE2FB1859FD02651ADE8A2F30 /* Pods-NoTrumpNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoTrumpNews-dummy.m"; sourceTree = "<group>"; };
+		0A3C1C1A27A265440D43B0086203529D /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		0B5999222E0A75DAB80764D3343E8066 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		0E417220B597968402DC982F2A927446 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		0ECBED440CD96B1D1E536570DAC4E956 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		109746FA7AAC957A49074EA7970DBA2C /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162D458D72C96BFD0E99964D9D6CC0CB /* Pods-NoTrumpNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoTrumpNewsTests-frameworks.sh"; sourceTree = "<group>"; };
+		18413CE1B2A4E6980C79BF73C92653A2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		186BC3642803DB90B54D8984D81BABAC /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		1A85B70692430BDEC71E36439A857AC4 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		1A99B2C1DDE7D400C1C8F7FE436D5DE5 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		1D6EAABAB1FF85DAA51FB66DFF2E9913 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		1E50A83DAD0D8A46AA1CA1BB8D60E6B0 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		1EE8917542A95D6B61B022EB84D466B4 /* Pods-NoTrumpNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NoTrumpNewsUITests.modulemap"; sourceTree = "<group>"; };
+		216AA852521374E11DA7A202F15F6560 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		272EC1DE91A98F99C9D849E5200DEABE /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		28B97941CE2CC511EEFA685D5B959C64 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		2BED8945A3E463093BF11B80FF9344DF /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		2E0367ED98629A57BE08ADD0C0B1E6DB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		31A5A88FAD2F822671327A6A1CEB57EA /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		349B43EA5A34392921D1300A2C8346C1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B50C6D4146CCE7269FE05043F4ABDC /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		38C83BAB125611002E2FEFCD88D1156C /* Pods-NoTrumpNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NoTrumpNewsTests.modulemap"; sourceTree = "<group>"; };
+		3E9094EBEFFCBCBEF72F3F3D1B0AEAD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7A7ADCC76AA71A4D9B861180836EEA /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		3FED1CD104BFEF07CE71A008973B9D8F /* Pods-NoTrumpNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoTrumpNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47C1A309132C88042BEE0F77834042A9 /* Pods-NoTrumpNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoTrumpNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4ABBDEE3709E9915B9FF60728EDF0D8B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		4EC83C9E4FCC2FDA5AF9609B7A5005FE /* Pods-NoTrumpNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoTrumpNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57C7986E60CA7FEB494760438E057D30 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		6822A76A9DA77D078E98C09C7A94779A /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		6A782D2B39232E3005BCCD25A1F3CF85 /* Pods-NoTrumpNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoTrumpNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DF646D8C4CEE86D8D3C73F999372DFE /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		6F0DCE4D575CAAD5629851F3B311A3D6 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		6FEE39485D357B3B1447A891A09369BE /* Pods-NoTrumpNewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoTrumpNewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7011FA452690653C0101A4B08624ACD3 /* Pods-NoTrumpNewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoTrumpNewsTests-resources.sh"; sourceTree = "<group>"; };
+		723F15B0DE5A4BBCA7C4CA0A1776FCEF /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		73CA9DF0DA9721D6D0B518EE5A6BC9E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777477F265C071FE89D8D13717DB8A4C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		780C448F21AAE6D98FFE7D9EE9EE4FF9 /* Pods-NoTrumpNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NoTrumpNews.modulemap"; sourceTree = "<group>"; };
+		83B3261086CBD93B10404C5A5AA89255 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		83EC17719E2ED95EFBFAB209B1B3AAEE /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		876DB6994191990AB52F5C9F326785C9 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		890E58CFA669D04B37054A2A1D0CE5AB /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		8996883E618CC69E1AC12362C2C49E5A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8A23ECD9441A41817E99B6A87CD81CD1 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		8C97050C5BB315CF8D59A03899BAFA13 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		90010B560EDB46E6B121ADD0F27D3D08 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		9096C703C075D7EA41F73460F83505EB /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		90C15BFFE3CF39483C1FEC9A76B818EE /* Pods-NoTrumpNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoTrumpNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91E70405A67FC6C9D8483637CBFB184C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E2BEA7C900A8261DB7D5EF48FBD054 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9961EA4EFCEF414784EA81084CCFEB09 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		9B7E2B09D59D7929B9AD87527B8D9B86 /* Pods_NoTrumpNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NoTrumpNewsTests.framework; path = "Pods-NoTrumpNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D873BEDF41660BA21306352F6D9808D /* Pods-NoTrumpNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NoTrumpNewsUITests-umbrella.h"; sourceTree = "<group>"; };
+		9EEC711E70EC9185957156679E2EA0A0 /* Pods-NoTrumpNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoTrumpNews-frameworks.sh"; sourceTree = "<group>"; };
+		A00EE2BD71D5C796E89E732DEC88AFCD /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		A14B910F6EACB9932A4D1D77A188D9AD /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		AB8ABE657C00D9C2D8ACC599E64E6C4C /* Pods-NoTrumpNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoTrumpNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC43BE8C0AF0823F024C2F804B910447 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		AC9B7DC61FEB870DF839DA9B127594A1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B10928FC27C4148C934AA48D5F922298 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		B1552887C09EEDD6EB0A1031303F0221 /* Pods-NoTrumpNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoTrumpNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B248B56619E551ECA500F62A6D6F1627 /* Pods-NoTrumpNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoTrumpNews.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E2660E26FA40BCA4E0C818F0B1A0A4 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		B62723BC52974F53E0F193D0C6E33DA6 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		BA69F5D7EF2338DC9ECDB1BB4868A17B /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		BC9F67EF126B58F122DEE38676263036 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		BE28DD66C44E6993A60FFC6E87840CB6 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		C1BACD5537A896134ECBC53485951719 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C50132975117A9B11C3A296D64461537 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C559EAD6AE253C6413BA08D79D131AF3 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		C58BDAA606D41CDB04999B34B2EFA539 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C70D06744E06E249606CE384CF9C9884 /* Pods-NoTrumpNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoTrumpNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8239CFF972A975D3F17BBF071AE44EA /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		C88647A25CDDCAB28C19DD86048DE062 /* Pods-NoTrumpNewsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NoTrumpNewsTests-umbrella.h"; sourceTree = "<group>"; };
+		CAFDC57B54D9E2B904559085000A9AF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC40173B7D16D79FEAE983ED6DE7AD2F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFBF437C82EB6EEE27F1B02AA296B49 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		D1E30AE7ED33AB2FD9B35FC21FC48AFB /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		D9C86D720BC91E45322D07F433C5856D /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		DDB101CAAC68C85604A751CDD64FC5C1 /* Pods-NoTrumpNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoTrumpNewsUITests-dummy.m"; sourceTree = "<group>"; };
+		E05350AC732109E2A1177F084A473154 /* Pods-NoTrumpNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoTrumpNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E145203D76939CDDD17D9DCCD8B1A712 /* Pods-NoTrumpNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoTrumpNews-resources.sh"; sourceTree = "<group>"; };
+		E29F3065EA31A89828940E0F494970E3 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		E3B32A92854DD372A68E988C452FF357 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		E41F7A94B37F24409C865D87FE772B95 /* Pods-NoTrumpNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoTrumpNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5092D5A25A91130BB6F533CF718E81E /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		E51E34575D0466FA4499C7DEF823EE55 /* Pods-NoTrumpNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoTrumpNews.release.xcconfig"; sourceTree = "<group>"; };
+		E8AAE3687341FC9E1ED22C2A64331A77 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		E9DC4D6346555718844DA29F6CF9A806 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		EBE41346895DED5C05CECF021B116F7B /* Pods_NoTrumpNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NoTrumpNewsUITests.framework; path = "Pods-NoTrumpNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7054A3E1296B7D43F9C2C9C119C75E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF2EA0C211A10BFDE1928075482465D /* Pods_NoTrumpNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NoTrumpNews.framework; path = "Pods-NoTrumpNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC6E866685D2704DC9D731311B7117C /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		EF41F5168BE9901574388836EECB99D2 /* Pods-NoTrumpNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoTrumpNewsTests-dummy.m"; sourceTree = "<group>"; };
+		F05451F2FB298B299CC003B6F9BA70C8 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		F686A8E79888336E8F8C4998E6189DAC /* Pods-NoTrumpNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NoTrumpNews-umbrella.h"; sourceTree = "<group>"; };
+		F7D3E6207DE38E6E83443D1E0E8A2AD3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		F8540D8BE4C3F548A5007B4646E1BA60 /* Pods-NoTrumpNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoTrumpNewsUITests-resources.sh"; sourceTree = "<group>"; };
+		FA77252623F47ACE5426AC0E9C19E4B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE373CFA80F1ED368EB4EC3E16332D5B /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A771823E38C05CA4DFC5CA7EC2D2459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2F69BEE947572E4AC5E60EC9E6349F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533765A1FEAE881F8D9034F6DEB87681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F3DE28B1B4F8764F09B272D51CC829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5845C12BA95DB7EFE57B74B2858CB76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5F0B489238341907C7997893C4142E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1C7D387172D30592E4FC9E167FBE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F560D9E27F88194E172775D4E304C69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4480A6235E78354DEDA3239598D5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D2E2BB79CEBDA4570A026CF05A0187 /* Foundation.framework in Frameworks */,
+				5D7334023C83E1CFA8FE9F68F16109BD /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A705A0F722E199DF2EBB087969DADB /* Pods-NoTrumpNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFDC57B54D9E2B904559085000A9AF3 /* Info.plist */,
+				38C83BAB125611002E2FEFCD88D1156C /* Pods-NoTrumpNewsTests.modulemap */,
+				90C15BFFE3CF39483C1FEC9A76B818EE /* Pods-NoTrumpNewsTests-acknowledgements.markdown */,
+				E41F7A94B37F24409C865D87FE772B95 /* Pods-NoTrumpNewsTests-acknowledgements.plist */,
+				EF41F5168BE9901574388836EECB99D2 /* Pods-NoTrumpNewsTests-dummy.m */,
+				162D458D72C96BFD0E99964D9D6CC0CB /* Pods-NoTrumpNewsTests-frameworks.sh */,
+				7011FA452690653C0101A4B08624ACD3 /* Pods-NoTrumpNewsTests-resources.sh */,
+				C88647A25CDDCAB28C19DD86048DE062 /* Pods-NoTrumpNewsTests-umbrella.h */,
+				B1552887C09EEDD6EB0A1031303F0221 /* Pods-NoTrumpNewsTests.debug.xcconfig */,
+				6A782D2B39232E3005BCCD25A1F3CF85 /* Pods-NoTrumpNewsTests.release.xcconfig */,
+			);
+			name = "Pods-NoTrumpNewsTests";
+			path = "Target Support Files/Pods-NoTrumpNewsTests";
+			sourceTree = "<group>";
+		};
+		2E95BAAD446788DCB8369056AB92B739 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				FE30EA35A6800BE630CCC6C0F7EA57B3 /* Core */,
+				ADB8AB3EB9DB5012F18A1F0F555F6E51 /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		3E959289E3AACD5B3EFB8457175D87B9 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				36B50C6D4146CCE7269FE05043F4ABDC /* SwiftyJSON.swift */,
+				9694069C1DACF2B9FD974102CFE2914F /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D84E3C69AE5CBF48F1BFE903C509C33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F4E6EB188950F375937B2B9649465DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E771EEC25976C1ECCAF726490764B22F /* Pods-NoTrumpNews */,
+				01A705A0F722E199DF2EBB087969DADB /* Pods-NoTrumpNewsTests */,
+				E67A1BB030AF1537FF696982595A5AC3 /* Pods-NoTrumpNewsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D84E3C69AE5CBF48F1BFE903C509C33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9757679632F4D96FB95D495ADE43F19A /* Foundation.framework */,
+				8C97050C5BB315CF8D59A03899BAFA13 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A06CA5409B58BF289B82E3D3935F3A52 /* Pods */,
+				B50F404F1F8AC3FF2D15700327837EE6 /* Products */,
+				6F4E6EB188950F375937B2B9649465DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		835205A2C5A98654365C7F56C1151872 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				CDFBF437C82EB6EEE27F1B02AA296B49 /* AFError.swift */,
+				8996883E618CC69E1AC12362C2C49E5A /* Alamofire.swift */,
+				2E0367ED98629A57BE08ADD0C0B1E6DB /* DispatchQueue+Alamofire.swift */,
+				FE373CFA80F1ED368EB4EC3E16332D5B /* MultipartFormData.swift */,
+				18413CE1B2A4E6980C79BF73C92653A2 /* NetworkReachabilityManager.swift */,
+				272EC1DE91A98F99C9D849E5200DEABE /* Notifications.swift */,
+				31A5A88FAD2F822671327A6A1CEB57EA /* ParameterEncoding.swift */,
+				0E417220B597968402DC982F2A927446 /* Request.swift */,
+				0ECBED440CD96B1D1E536570DAC4E956 /* Response.swift */,
+				EEC6E866685D2704DC9D731311B7117C /* ResponseSerialization.swift */,
+				B10928FC27C4148C934AA48D5F922298 /* Result.swift */,
+				876DB6994191990AB52F5C9F326785C9 /* ServerTrustPolicy.swift */,
+				BC9F67EF126B58F122DEE38676263036 /* SessionDelegate.swift */,
+				F7D3E6207DE38E6E83443D1E0E8A2AD3 /* SessionManager.swift */,
+				C8239CFF972A975D3F17BBF071AE44EA /* TaskDelegate.swift */,
+				890E58CFA669D04B37054A2A1D0CE5AB /* Timeline.swift */,
+				E8AAE3687341FC9E1ED22C2A64331A77 /* Validation.swift */,
+				8E5527BCCAC3D1D71AFF31AE1E278360 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		8E5527BCCAC3D1D71AFF31AE1E278360 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58BDAA606D41CDB04999B34B2EFA539 /* Alamofire.modulemap */,
+				90010B560EDB46E6B121ADD0F27D3D08 /* Alamofire.xcconfig */,
+				C1BACD5537A896134ECBC53485951719 /* Alamofire-dummy.m */,
+				4ABBDEE3709E9915B9FF60728EDF0D8B /* Alamofire-prefix.pch */,
+				AC9B7DC61FEB870DF839DA9B127594A1 /* Alamofire-umbrella.h */,
+				3E9094EBEFFCBCBEF72F3F3D1B0AEAD6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		9694069C1DACF2B9FD974102CFE2914F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7054A3E1296B7D43F9C2C9C119C75E /* Info.plist */,
+				216AA852521374E11DA7A202F15F6560 /* SwiftyJSON.modulemap */,
+				6DF646D8C4CEE86D8D3C73F999372DFE /* SwiftyJSON.xcconfig */,
+				723F15B0DE5A4BBCA7C4CA0A1776FCEF /* SwiftyJSON-dummy.m */,
+				A14B910F6EACB9932A4D1D77A188D9AD /* SwiftyJSON-prefix.pch */,
+				94E2BEA7C900A8261DB7D5EF48FBD054 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		A06CA5409B58BF289B82E3D3935F3A52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				835205A2C5A98654365C7F56C1151872 /* Alamofire */,
+				2E95BAAD446788DCB8369056AB92B739 /* SDWebImage */,
+				3E959289E3AACD5B3EFB8457175D87B9 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADB8AB3EB9DB5012F18A1F0F555F6E51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CA9DF0DA9721D6D0B518EE5A6BC9E3 /* Info.plist */,
+				6F0DCE4D575CAAD5629851F3B311A3D6 /* SDWebImage.modulemap */,
+				0A3C1C1A27A265440D43B0086203529D /* SDWebImage.xcconfig */,
+				8A23ECD9441A41817E99B6A87CD81CD1 /* SDWebImage-dummy.m */,
+				A00EE2BD71D5C796E89E732DEC88AFCD /* SDWebImage-prefix.pch */,
+				28B97941CE2CC511EEFA685D5B959C64 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		B50F404F1F8AC3FF2D15700327837EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC40173B7D16D79FEAE983ED6DE7AD2F /* Alamofire.framework */,
+				EDF2EA0C211A10BFDE1928075482465D /* Pods_NoTrumpNews.framework */,
+				9B7E2B09D59D7929B9AD87527B8D9B86 /* Pods_NoTrumpNewsTests.framework */,
+				EBE41346895DED5C05CECF021B116F7B /* Pods_NoTrumpNewsUITests.framework */,
+				109746FA7AAC957A49074EA7970DBA2C /* SDWebImage.framework */,
+				349B43EA5A34392921D1300A2C8346C1 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E67A1BB030AF1537FF696982595A5AC3 /* Pods-NoTrumpNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C50132975117A9B11C3A296D64461537 /* Info.plist */,
+				1EE8917542A95D6B61B022EB84D466B4 /* Pods-NoTrumpNewsUITests.modulemap */,
+				6FEE39485D357B3B1447A891A09369BE /* Pods-NoTrumpNewsUITests-acknowledgements.markdown */,
+				47C1A309132C88042BEE0F77834042A9 /* Pods-NoTrumpNewsUITests-acknowledgements.plist */,
+				DDB101CAAC68C85604A751CDD64FC5C1 /* Pods-NoTrumpNewsUITests-dummy.m */,
+				E05350AC732109E2A1177F084A473154 /* Pods-NoTrumpNewsUITests-frameworks.sh */,
+				F8540D8BE4C3F548A5007B4646E1BA60 /* Pods-NoTrumpNewsUITests-resources.sh */,
+				9D873BEDF41660BA21306352F6D9808D /* Pods-NoTrumpNewsUITests-umbrella.h */,
+				3FED1CD104BFEF07CE71A008973B9D8F /* Pods-NoTrumpNewsUITests.debug.xcconfig */,
+				C70D06744E06E249606CE384CF9C9884 /* Pods-NoTrumpNewsUITests.release.xcconfig */,
+			);
+			name = "Pods-NoTrumpNewsUITests";
+			path = "Target Support Files/Pods-NoTrumpNewsUITests";
+			sourceTree = "<group>";
+		};
+		E771EEC25976C1ECCAF726490764B22F /* Pods-NoTrumpNews */ = {
+			isa = PBXGroup;
+			children = (
+				FA77252623F47ACE5426AC0E9C19E4B4 /* Info.plist */,
+				780C448F21AAE6D98FFE7D9EE9EE4FF9 /* Pods-NoTrumpNews.modulemap */,
+				4EC83C9E4FCC2FDA5AF9609B7A5005FE /* Pods-NoTrumpNews-acknowledgements.markdown */,
+				AB8ABE657C00D9C2D8ACC599E64E6C4C /* Pods-NoTrumpNews-acknowledgements.plist */,
+				0125E72BE2FB1859FD02651ADE8A2F30 /* Pods-NoTrumpNews-dummy.m */,
+				9EEC711E70EC9185957156679E2EA0A0 /* Pods-NoTrumpNews-frameworks.sh */,
+				E145203D76939CDDD17D9DCCD8B1A712 /* Pods-NoTrumpNews-resources.sh */,
+				F686A8E79888336E8F8C4998E6189DAC /* Pods-NoTrumpNews-umbrella.h */,
+				B248B56619E551ECA500F62A6D6F1627 /* Pods-NoTrumpNews.debug.xcconfig */,
+				E51E34575D0466FA4499C7DEF823EE55 /* Pods-NoTrumpNews.release.xcconfig */,
+			);
+			name = "Pods-NoTrumpNews";
+			path = "Target Support Files/Pods-NoTrumpNews";
+			sourceTree = "<group>";
+		};
+		FE30EA35A6800BE630CCC6C0F7EA57B3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A85B70692430BDEC71E36439A857AC4 /* NSData+ImageContentType.h */,
+				E9DC4D6346555718844DA29F6CF9A806 /* NSData+ImageContentType.m */,
+				BE28DD66C44E6993A60FFC6E87840CB6 /* SDImageCache.h */,
+				6822A76A9DA77D078E98C09C7A94779A /* SDImageCache.m */,
+				9961EA4EFCEF414784EA81084CCFEB09 /* SDWebImageCompat.h */,
+				D1E30AE7ED33AB2FD9B35FC21FC48AFB /* SDWebImageCompat.m */,
+				C559EAD6AE253C6413BA08D79D131AF3 /* SDWebImageDecoder.h */,
+				1D6EAABAB1FF85DAA51FB66DFF2E9913 /* SDWebImageDecoder.m */,
+				83EC17719E2ED95EFBFAB209B1B3AAEE /* SDWebImageDownloader.h */,
+				3F7A7ADCC76AA71A4D9B861180836EEA /* SDWebImageDownloader.m */,
+				E5092D5A25A91130BB6F533CF718E81E /* SDWebImageDownloaderOperation.h */,
+				777477F265C071FE89D8D13717DB8A4C /* SDWebImageDownloaderOperation.m */,
+				1A99B2C1DDE7D400C1C8F7FE436D5DE5 /* SDWebImageManager.h */,
+				B62723BC52974F53E0F193D0C6E33DA6 /* SDWebImageManager.m */,
+				AC43BE8C0AF0823F024C2F804B910447 /* SDWebImageOperation.h */,
+				2BED8945A3E463093BF11B80FF9344DF /* SDWebImagePrefetcher.h */,
+				91E70405A67FC6C9D8483637CBFB184C /* SDWebImagePrefetcher.m */,
+				9096C703C075D7EA41F73460F83505EB /* UIButton+WebCache.h */,
+				0B5999222E0A75DAB80764D3343E8066 /* UIButton+WebCache.m */,
+				E29F3065EA31A89828940E0F494970E3 /* UIImage+GIF.h */,
+				BA69F5D7EF2338DC9ECDB1BB4868A17B /* UIImage+GIF.m */,
+				F05451F2FB298B299CC003B6F9BA70C8 /* UIImage+MultiFormat.h */,
+				B2E2660E26FA40BCA4E0C818F0B1A0A4 /* UIImage+MultiFormat.m */,
+				83B3261086CBD93B10404C5A5AA89255 /* UIImageView+HighlightedWebCache.h */,
+				E3B32A92854DD372A68E988C452FF357 /* UIImageView+HighlightedWebCache.m */,
+				57C7986E60CA7FEB494760438E057D30 /* UIImageView+WebCache.h */,
+				186BC3642803DB90B54D8984D81BABAC /* UIImageView+WebCache.m */,
+				1E50A83DAD0D8A46AA1CA1BB8D60E6B0 /* UIView+WebCacheOperation.h */,
+				D9C86D720BC91E45322D07F433C5856D /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39C7EB3D81D03CC7F27A8703C53C4680 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF03263F3487B28975A037D7FA4D6B0 /* Pods-NoTrumpNews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B92B6823D4F2FF305095B2FF58C707C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A087519953EB8EBA95E09C37258E742 /* NSData+ImageContentType.h in Headers */,
+				072A44B942690E996CD4AACFABF24405 /* SDImageCache.h in Headers */,
+				08C4C92C53048A74505676CFAAC351F7 /* SDWebImage-umbrella.h in Headers */,
+				8628CA541C137295D3C8467C78369924 /* SDWebImageCompat.h in Headers */,
+				5DBEDCF1E46DE937CAA5DA2946673481 /* SDWebImageDecoder.h in Headers */,
+				99326325A6771939C9F0E0D17E88CBDD /* SDWebImageDownloader.h in Headers */,
+				114CF663205CE5747DD7032134F6D866 /* SDWebImageDownloaderOperation.h in Headers */,
+				87270CD5F1C239BD917F3C8C5005CD93 /* SDWebImageManager.h in Headers */,
+				1CA345F357493E8BC2EDA3F3AACA67A6 /* SDWebImageOperation.h in Headers */,
+				4DD584CB00A2AE8C43BA8BC810E8A041 /* SDWebImagePrefetcher.h in Headers */,
+				B49889ACAFBAA20962FDEE40A5F5D28A /* UIButton+WebCache.h in Headers */,
+				5E56205C029F3A9D1324EA63F1288D27 /* UIImage+GIF.h in Headers */,
+				1AEBB61BB5BD852153A20F64D4971196 /* UIImage+MultiFormat.h in Headers */,
+				4E6624586A2CBD2F31600A80E369CA77 /* UIImageView+HighlightedWebCache.h in Headers */,
+				686043685F307E7140BE34CD057D33EB /* UIImageView+WebCache.h in Headers */,
+				C27AC320FDF40312227C1550D4B8F3C4 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB6245C3C602F934DDCB15DD6B116AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4657A0205B488A9DDA53E6874B2C0 /* Pods-NoTrumpNewsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91504788F2CD488E3B3A84258254322 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C081AAB80B42BDD612A8D5CBE33D3BB1 /* Pods-NoTrumpNewsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCBF803A3FBFC6153812792270B66CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C48DC0BD4B67EFF1CDF564C6365AB1 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		243EF286DAC04CADEF2D913F2F112B27 /* Pods-NoTrumpNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720598933B84FA6616A723E139E2E790 /* Build configuration list for PBXNativeTarget "Pods-NoTrumpNewsUITests" */;
+			buildPhases = (
+				F85DFCECF168E0B27E72AC3A44D6C67B /* Sources */,
+				4A771823E38C05CA4DFC5CA7EC2D2459 /* Frameworks */,
+				BEB6245C3C602F934DDCB15DD6B116AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NoTrumpNewsUITests";
+			productName = "Pods-NoTrumpNewsUITests";
+			productReference = EBE41346895DED5C05CECF021B116F7B /* Pods_NoTrumpNewsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5118E9B8ECA537E452EFB443CD52AF49 /* Pods-NoTrumpNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F543BB513F6F7532FDCD345A645CC986 /* Build configuration list for PBXNativeTarget "Pods-NoTrumpNewsTests" */;
+			buildPhases = (
+				3343522BAA2C88E4664AF5C073436D69 /* Sources */,
+				7E1C7D387172D30592E4FC9E167FBE05 /* Frameworks */,
+				C91504788F2CD488E3B3A84258254322 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NoTrumpNewsTests";
+			productName = "Pods-NoTrumpNewsTests";
+			productReference = 9B7E2B09D59D7929B9AD87527B8D9B86 /* Pods_NoTrumpNewsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		565BD135AC8F11A57AFEF82579169113 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9675B7308345D5DA615A571B3AE17C15 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				E925905F4B5C990947057892337F826F /* Sources */,
+				AD4480A6235E78354DEDA3239598D5F4 /* Frameworks */,
+				9B92B6823D4F2FF305095B2FF58C707C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 109746FA7AAC957A49074EA7970DBA2C /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64A372C09D6504FB516C516A39E185DE /* Pods-NoTrumpNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3A7E992222E2375AD588E26EFE2FC2 /* Build configuration list for PBXNativeTarget "Pods-NoTrumpNews" */;
+			buildPhases = (
+				AD350CC3BE5161667B281A8FB5934251 /* Sources */,
+				5845C12BA95DB7EFE57B74B2858CB76E /* Frameworks */,
+				39C7EB3D81D03CC7F27A8703C53C4680 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71FCE16E5298A8F9CA3625F4DCCC6F4 /* PBXTargetDependency */,
+				79DC8E370C38EDEF1A576E2C91791ED1 /* PBXTargetDependency */,
+				F161E23B82525DE13C10C4A70A7EE054 /* PBXTargetDependency */,
+			);
+			name = "Pods-NoTrumpNews";
+			productName = "Pods-NoTrumpNews";
+			productReference = EDF2EA0C211A10BFDE1928075482465D /* Pods_NoTrumpNews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = CC40173B7D16D79FEAE983ED6DE7AD2F /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9673B8F1A69458C316CB866C91723024 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBC4C33F86D66B5DEDA1D1DFBBC8738 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				4C9E431A560640557E0E568D76C1177A /* Sources */,
+				533765A1FEAE881F8D9034F6DEB87681 /* Frameworks */,
+				EDCBF803A3FBFC6153812792270B66CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 349B43EA5A34392921D1300A2C8346C1 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B50F404F1F8AC3FF2D15700327837EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				64A372C09D6504FB516C516A39E185DE /* Pods-NoTrumpNews */,
+				5118E9B8ECA537E452EFB443CD52AF49 /* Pods-NoTrumpNewsTests */,
+				243EF286DAC04CADEF2D913F2F112B27 /* Pods-NoTrumpNewsUITests */,
+				565BD135AC8F11A57AFEF82579169113 /* SDWebImage */,
+				9673B8F1A69458C316CB866C91723024 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3343522BAA2C88E4664AF5C073436D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC3A803A32FC6DCDF71145AFCE2F3E4 /* Pods-NoTrumpNewsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9E431A560640557E0E568D76C1177A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA5F3D14BE08F92C9002E516F4985ED /* SwiftyJSON-dummy.m in Sources */,
+				4556DD88BC005430644855B038EF7E36 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD350CC3BE5161667B281A8FB5934251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C954404DF753B09B4C56BE1DF203B3 /* Pods-NoTrumpNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E925905F4B5C990947057892337F826F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226352E1B37012C41305EEB880FA9BE6 /* NSData+ImageContentType.m in Sources */,
+				4F27940C1283FA4C879A896FE67B012F /* SDImageCache.m in Sources */,
+				6DC53DD4717A013488761686018464AD /* SDWebImage-dummy.m in Sources */,
+				CD54F71075B4ED8058B3DE6742A41F13 /* SDWebImageCompat.m in Sources */,
+				61E3A614AB5B62741FD3CC47C10B37DA /* SDWebImageDecoder.m in Sources */,
+				D87F50BECB2D5EA9424CE54E1A0FB631 /* SDWebImageDownloader.m in Sources */,
+				54509F892F138257E38135F533A8831C /* SDWebImageDownloaderOperation.m in Sources */,
+				4B72BEF427019F09CBFD02AEE41CE179 /* SDWebImageManager.m in Sources */,
+				B8CD7C672331F02656EF8511BBB90D51 /* SDWebImagePrefetcher.m in Sources */,
+				EE79026E366A62A3AB483044B851F580 /* UIButton+WebCache.m in Sources */,
+				37EACDCE73C34A0AC3D536B779D2370C /* UIImage+GIF.m in Sources */,
+				6CAEBAF17D82DB02FC4C0F0713C3E216 /* UIImage+MultiFormat.m in Sources */,
+				47DE4775ACD9EABA0A530A354D84CE78 /* UIImageView+HighlightedWebCache.m in Sources */,
+				6C9C3DC644B415DF55E755AE9DB018C8 /* UIImageView+WebCache.m in Sources */,
+				C25FCC79613E0B79F53F342307816850 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85DFCECF168E0B27E72AC3A44D6C67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19A28C6B92B62181F8D14D238DA519F /* Pods-NoTrumpNewsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79DC8E370C38EDEF1A576E2C91791ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 565BD135AC8F11A57AFEF82579169113 /* SDWebImage */;
+			targetProxy = E11DDF2CDDAD601224E14AE59455D785 /* PBXContainerItemProxy */;
+		};
+		A71FCE16E5298A8F9CA3625F4DCCC6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 2A06D0ED159A33C58D5F9C1546F00D93 /* PBXContainerItemProxy */;
+		};
+		F161E23B82525DE13C10C4A70A7EE054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 9673B8F1A69458C316CB866C91723024 /* SwiftyJSON */;
+			targetProxy = 993609B130646E9C518C38949868DCCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A2A07147C002B9821C780F7420C823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3C1C1A27A265440D43B0086203529D /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90010B560EDB46E6B121ADD0F27D3D08 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F2BD207868FEBDF83BFCFE3588C2886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A782D2B39232E3005BCCD25A1F3CF85 /* Pods-NoTrumpNewsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NoTrumpNewsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoTrumpNewsTests/Pods-NoTrumpNewsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NoTrumpNewsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		419A2857E7F0F702A3BE68D0A234AD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FED1CD104BFEF07CE71A008973B9D8F /* Pods-NoTrumpNewsUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NoTrumpNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoTrumpNewsUITests/Pods-NoTrumpNewsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NoTrumpNewsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49E704BA86C5412D6C567C14FDDA7242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B248B56619E551ECA500F62A6D6F1627 /* Pods-NoTrumpNews.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NoTrumpNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoTrumpNews/Pods-NoTrumpNews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NoTrumpNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D96B3CADF27A31D8C8947E4F51374ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70D06744E06E249606CE384CF9C9884 /* Pods-NoTrumpNewsUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NoTrumpNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoTrumpNewsUITests/Pods-NoTrumpNewsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NoTrumpNewsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E798D7B9758C71BC53EF70DB29197A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51E34575D0466FA4499C7DEF823EE55 /* Pods-NoTrumpNews.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NoTrumpNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoTrumpNews/Pods-NoTrumpNews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NoTrumpNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		689DE08504159EB8697996399B791157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF646D8C4CEE86D8D3C73F999372DFE /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C2AE4FF0D2855854303A5AA5E734BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1552887C09EEDD6EB0A1031303F0221 /* Pods-NoTrumpNewsTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NoTrumpNewsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoTrumpNewsTests/Pods-NoTrumpNewsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NoTrumpNewsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A84BAEE336F2A59CE84A53B36842A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF646D8C4CEE86D8D3C73F999372DFE /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B1A7290FEAFD798A2F3AA98C15D6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3C1C1A27A265440D43B0086203529D /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90010B560EDB46E6B121ADD0F27D3D08 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBC4C33F86D66B5DEDA1D1DFBBC8738 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689DE08504159EB8697996399B791157 /* Debug */,
+				A84BAEE336F2A59CE84A53B36842A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383079BFBF927813EA3613CFB679FDE /* Debug */,
+				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3A7E992222E2375AD588E26EFE2FC2 /* Build configuration list for PBXNativeTarget "Pods-NoTrumpNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E704BA86C5412D6C567C14FDDA7242 /* Debug */,
+				4E798D7B9758C71BC53EF70DB29197A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720598933B84FA6616A723E139E2E790 /* Build configuration list for PBXNativeTarget "Pods-NoTrumpNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419A2857E7F0F702A3BE68D0A234AD1B /* Debug */,
+				4D96B3CADF27A31D8C8947E4F51374ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9675B7308345D5DA615A571B3AE17C15 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A2A07147C002B9821C780F7420C823 /* Debug */,
+				C6B1A7290FEAFD798A2F3AA98C15D6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F543BB513F6F7532FDCD345A645CC986 /* Build configuration list for PBXNativeTarget "Pods-NoTrumpNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2AE4FF0D2855854303A5AA5E734BC7 /* Debug */,
+				3F2BD207868FEBDF83BFCFE3588C2886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

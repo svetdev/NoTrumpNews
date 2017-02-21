@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA197C939983F6E78EB4BEF /* Pods_NoTrumpNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B37B3CABFE5C621043E1757 /* Pods_NoTrumpNews.framework */; };
+		7E9121BE0CC442AAA86BF38B /* Pods_NoTrumpNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7027EB89EC0B90B9828F86DF /* Pods_NoTrumpNewsTests.framework */; };
 		A1B2BAB61E5C9E6700E04F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2BAB51E5C9E6700E04F5D /* AppDelegate.swift */; };
 		A1B2BAB81E5C9E6700E04F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2BAB71E5C9E6700E04F5D /* ViewController.swift */; };
 		A1B2BABB1E5C9E6700E04F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B2BAB91E5C9E6700E04F5D /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		A1B2BAC01E5C9E6700E04F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B2BABE1E5C9E6700E04F5D /* LaunchScreen.storyboard */; };
 		A1B2BACB1E5C9E6700E04F5D /* NoTrumpNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2BACA1E5C9E6700E04F5D /* NoTrumpNewsTests.swift */; };
 		A1B2BAD61E5C9E6700E04F5D /* NoTrumpNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2BAD51E5C9E6700E04F5D /* NoTrumpNewsUITests.swift */; };
+		F791A4225CE6D5E77AE0687E /* Pods_NoTrumpNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6550B1514059AFA54DB1D826 /* Pods_NoTrumpNewsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EF4876E57D113A22B0C6A47 /* Pods-NoTrumpNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoTrumpNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoTrumpNews/Pods-NoTrumpNews.release.xcconfig"; sourceTree = "<group>"; };
+		24C61C3C7C5F2596AF76EB65 /* Pods-NoTrumpNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoTrumpNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoTrumpNewsTests/Pods-NoTrumpNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6550B1514059AFA54DB1D826 /* Pods_NoTrumpNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoTrumpNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D8DE174F99B3ECD050246E /* Pods-NoTrumpNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoTrumpNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoTrumpNews/Pods-NoTrumpNews.debug.xcconfig"; sourceTree = "<group>"; };
+		7027EB89EC0B90B9828F86DF /* Pods_NoTrumpNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoTrumpNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CB2FEDB392DE63149732B7 /* Pods-NoTrumpNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoTrumpNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoTrumpNewsUITests/Pods-NoTrumpNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B37B3CABFE5C621043E1757 /* Pods_NoTrumpNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoTrumpNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2BAB21E5C9E6700E04F5D /* NoTrumpNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoTrumpNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2BAB51E5C9E6700E04F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B2BAB71E5C9E6700E04F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		A1B2BAD11E5C9E6700E04F5D /* NoTrumpNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoTrumpNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2BAD51E5C9E6700E04F5D /* NoTrumpNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTrumpNewsUITests.swift; sourceTree = "<group>"; };
 		A1B2BAD71E5C9E6700E04F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36E27E280219441553EBD77 /* Pods-NoTrumpNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoTrumpNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoTrumpNewsTests/Pods-NoTrumpNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4283A783E0D5079D33AC2F /* Pods-NoTrumpNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoTrumpNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoTrumpNewsUITests/Pods-NoTrumpNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA197C939983F6E78EB4BEF /* Pods_NoTrumpNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9121BE0CC442AAA86BF38B /* Pods_NoTrumpNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F791A4225CE6D5E77AE0687E /* Pods_NoTrumpNewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B6383A3FB50B0DBDB598D74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D8DE174F99B3ECD050246E /* Pods-NoTrumpNews.debug.xcconfig */,
+				1EF4876E57D113A22B0C6A47 /* Pods-NoTrumpNews.release.xcconfig */,
+				E36E27E280219441553EBD77 /* Pods-NoTrumpNewsTests.debug.xcconfig */,
+				24C61C3C7C5F2596AF76EB65 /* Pods-NoTrumpNewsTests.release.xcconfig */,
+				76CB2FEDB392DE63149732B7 /* Pods-NoTrumpNewsUITests.debug.xcconfig */,
+				EC4283A783E0D5079D33AC2F /* Pods-NoTrumpNewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1B2BAA91E5C9E6700E04F5D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				A1B2BAC91E5C9E6700E04F5D /* NoTrumpNewsTests */,
 				A1B2BAD41E5C9E6700E04F5D /* NoTrumpNewsUITests */,
 				A1B2BAB31E5C9E6700E04F5D /* Products */,
+				1B6383A3FB50B0DBDB598D74 /* Pods */,
+				FFC74DCB14672EABFA0805BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = NoTrumpNewsUITests;
 			sourceTree = "<group>";
 		};
+		FFC74DCB14672EABFA0805BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B37B3CABFE5C621043E1757 /* Pods_NoTrumpNews.framework */,
+				7027EB89EC0B90B9828F86DF /* Pods_NoTrumpNewsTests.framework */,
+				6550B1514059AFA54DB1D826 /* Pods_NoTrumpNewsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B2BADA1E5C9E6700E04F5D /* Build configuration list for PBXNativeTarget "NoTrumpNews" */;
 			buildPhases = (
+				C1838BCB3D6A4CB64FADE9D4 /* [CP] Check Pods Manifest.lock */,
 				A1B2BAAE1E5C9E6700E04F5D /* Sources */,
 				A1B2BAAF1E5C9E6700E04F5D /* Frameworks */,
 				A1B2BAB01E5C9E6700E04F5D /* Resources */,
+				DEC245F70183EBF768AD2648 /* [CP] Embed Pods Frameworks */,
+				0C5550E4A569F6C67C861727 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B2BADD1E5C9E6700E04F5D /* Build configuration list for PBXNativeTarget "NoTrumpNewsTests" */;
 			buildPhases = (
+				ED08F03BEE1548E48922614C /* [CP] Check Pods Manifest.lock */,
 				A1B2BAC21E5C9E6700E04F5D /* Sources */,
 				A1B2BAC31E5C9E6700E04F5D /* Frameworks */,
 				A1B2BAC41E5C9E6700E04F5D /* Resources */,
+				7F422A2C52F4C2F05450E37C /* [CP] Embed Pods Frameworks */,
+				E820E1699FE648B886B6BB47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B2BAE01E5C9E6700E04F5D /* Build configuration list for PBXNativeTarget "NoTrumpNewsUITests" */;
 			buildPhases = (
+				9E2245832295F6D2EDA5E361 /* [CP] Check Pods Manifest.lock */,
 				A1B2BACD1E5C9E6700E04F5D /* Sources */,
 				A1B2BACE1E5C9E6700E04F5D /* Frameworks */,
 				A1B2BACF1E5C9E6700E04F5D /* Resources */,
+				FFC380EBBE36489472DBDAD3 /* [CP] Embed Pods Frameworks */,
+				7855339C7A5897E4822822E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5550E4A569F6C67C861727 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoTrumpNews/Pods-NoTrumpNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7855339C7A5897E4822822E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoTrumpNewsUITests/Pods-NoTrumpNewsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F422A2C52F4C2F05450E37C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoTrumpNewsTests/Pods-NoTrumpNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2245832295F6D2EDA5E361 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1838BCB3D6A4CB64FADE9D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC245F70183EBF768AD2648 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoTrumpNews/Pods-NoTrumpNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E820E1699FE648B886B6BB47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoTrumpNewsTests/Pods-NoTrumpNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED08F03BEE1548E48922614C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC380EBBE36489472DBDAD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoTrumpNewsUITests/Pods-NoTrumpNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1B2BAAE1E5C9E6700E04F5D /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		A1B2BADB1E5C9E6700E04F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D8DE174F99B3ECD050246E /* Pods-NoTrumpNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89R963Q7GX;
@@ -426,6 +614,7 @@
 		};
 		A1B2BADC1E5C9E6700E04F5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF4876E57D113A22B0C6A47 /* Pods-NoTrumpNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89R963Q7GX;
@@ -439,6 +628,7 @@
 		};
 		A1B2BADE1E5C9E6700E04F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36E27E280219441553EBD77 /* Pods-NoTrumpNewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		A1B2BADF1E5C9E6700E04F5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C61C3C7C5F2596AF76EB65 /* Pods-NoTrumpNewsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		A1B2BAE11E5C9E6700E04F5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CB2FEDB392DE63149732B7 /* Pods-NoTrumpNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 89R963Q7GX;
@@ -483,6 +675,7 @@
 		};
 		A1B2BAE21E5C9E6700E04F5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4283A783E0D5079D33AC2F /* Pods-NoTrumpNewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 89R963Q7GX;

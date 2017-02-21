@@ -1,0 +1,6 @@
+framework module Pods_NoTrumpNewsUITests {
+  umbrella header "Pods-NoTrumpNewsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
