@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eSK-ak-Zu8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Top ArticlesVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TopArticlesVC" id="BYZ-38-t0r" customClass="TopArticlesVC" customModule="NoTrumpNews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,9 +23,175 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="WUR-QB-OZx"/>
+                    <connections>
+                        <segue destination="mLV-dg-1nt" kind="show" id="Obp-Ca-HuF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="999.20000000000005" y="37.331334332833585"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="34K-n6-C8L">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kcZ-4Y-kJz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PfA-Mi-zum">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ChK-5A-l6b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sH5-We-1OE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="37"/>
+        </scene>
+        <!--Side MenuVC-->
+        <scene sceneID="iYk-Kh-MpY">
+            <objects>
+                <viewController storyboardIdentifier="SideMenuVC" id="QvR-pz-0fv" customClass="SideMenuVC" customModule="NoTrumpNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ppF-RJ-er3"/>
+                        <viewControllerLayoutGuide type="bottom" id="yLq-J5-e7C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YN4-de-zPU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="45" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cAL-8j-kAt">
+                                <rect key="frame" x="-8" y="28" width="383" height="200"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="g1B-93-hDu"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellIdentifier" rowHeight="45" id="BxY-0h-B6C" customClass="sideMenuCell" customModule="NoTrumpNews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="383" height="45"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BxY-0h-B6C" id="Q5q-Kr-jei">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TqU-Az-1Qe">
+                                                    <rect key="frame" x="26" y="8" width="15" height="19"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="19" id="QF9-pU-0KD"/>
+                                                        <constraint firstAttribute="width" constant="15" id="mKk-ML-yUc"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKa-lH-svX">
+                                                    <rect key="frame" x="67" y="8" width="40" height="19"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Label">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="16" name="Arial-Black"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="yKa-lH-svX" firstAttribute="leading" secondItem="TqU-Az-1Qe" secondAttribute="trailing" constant="26" id="8oV-64-b0H"/>
+                                                <constraint firstItem="TqU-Az-1Qe" firstAttribute="centerY" secondItem="Q5q-Kr-jei" secondAttribute="centerY" constant="-5" id="Aig-Lq-Eam"/>
+                                                <constraint firstItem="yKa-lH-svX" firstAttribute="centerY" secondItem="Q5q-Kr-jei" secondAttribute="centerY" constant="-5" id="Y9H-Mr-2z0"/>
+                                                <constraint firstItem="TqU-Az-1Qe" firstAttribute="top" secondItem="yKa-lH-svX" secondAttribute="top" id="ZoH-zg-yBB"/>
+                                                <constraint firstItem="TqU-Az-1Qe" firstAttribute="leading" secondItem="Q5q-Kr-jei" secondAttribute="leadingMargin" constant="18" id="ek1-Sg-m6D"/>
+                                                <constraint firstItem="TqU-Az-1Qe" firstAttribute="leading" secondItem="Q5q-Kr-jei" secondAttribute="leadingMargin" constant="18" id="t37-9Y-7aS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="itemImage" destination="TqU-Az-1Qe" id="659-68-Wt8"/>
+                                            <outlet property="itemLabel" destination="yKa-lH-svX" id="Z2c-YU-Fr0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cAL-8j-kAt" secondAttribute="trailing" id="MkR-KG-Osv"/>
+                            <constraint firstItem="cAL-8j-kAt" firstAttribute="top" secondItem="ppF-RJ-er3" secondAttribute="bottom" constant="8" id="ciS-Nx-Ut1"/>
+                            <constraint firstItem="cAL-8j-kAt" firstAttribute="leading" secondItem="YN4-de-zPU" secondAttribute="leadingMargin" constant="-24" id="eD0-F8-c6d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="cAL-8j-kAt" id="qGm-aQ-gcs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55i-kQ-QkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151" y="764"/>
+        </scene>
+        <!--MainVC-->
+        <scene sceneID="bsb-yY-GoD">
+            <objects>
+                <viewController id="eSK-ak-Zu8" customClass="MainVC" customModule="NoTrumpNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wIo-eS-0n5"/>
+                        <viewControllerLayoutGuide type="bottom" id="G3W-Gd-X9Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T10-76-xIt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
+                    </view>
+                    <navigationItem key="navigationItem" id="sTU-SX-MWq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aMp-mH-lfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-596" y="36"/>
+        </scene>
+        <!--Full ArticleVC-->
+        <scene sceneID="4ae-bZ-Zsz">
+            <objects>
+                <viewController storyboardIdentifier="FullArticleVC" id="mLV-dg-1nt" customClass="FullArticleVC" customModule="NoTrumpNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a83-OQ-HHD"/>
+                        <viewControllerLayoutGuide type="bottom" id="C5D-a7-agl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HSQ-5T-dRb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3xi-MM-PUY"/>
+                    <connections>
+                        <segue destination="sGS-XM-v67" kind="show" id="c7k-vm-0JS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vmu-06-Zcq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1814" y="37"/>
+        </scene>
+        <!--ArticlesVC-->
+        <scene sceneID="Yg4-g2-RPf">
+            <objects>
+                <viewController storyboardIdentifier="ArticlesVC" id="sGS-XM-v67" customClass="ArticlesVC" customModule="NoTrumpNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jNd-On-6df"/>
+                        <viewControllerLayoutGuide type="bottom" id="Did-mo-wKA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qrX-1p-rAz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="69Z-VT-DCm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pMh-ox-jmX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2575" y="37"/>
         </scene>
     </scenes>
 </document>
